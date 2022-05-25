@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
+    <!--Style-->
+    <style>
+        .first-column {
+           height: 400px;
+           padding: 15%;
+           text-align: center;
+           border-top-left-radius: 50px;
+           border-bottom-left-radius: 50px;
+           border: 2px solid black;
+        }
+    </style>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -19,9 +32,26 @@
           <div class="navbar-nav">
             <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
         </div>
-            
         </div>
       </nav>
+
+
+      <!--Exercise 1-->
+      <section>
+
+        <div class="container mt-5">
+            <h1 class="display-4 text-muted text-center mb-5">Exercise 1</h1>
+            <p class="lead text-center mt-5 mb-5">Recreate this table by just using Boostrap 4 classes or styling without adding or removing any DOM element</p>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 bg-success d-flex align-items-center justify-content-center text-light first-column">
+                    First Column
+                    Height 400px; 
+                    Green-ish background
+                    Text centered
+                </div>
+            </div>
+        </div>
+      </section>
 
 
 
